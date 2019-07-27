@@ -1,0 +1,174 @@
+\documentclass[8pt,twocolumn]{article}
+\usepackage{extsizes}
+\usepackage[a4paper,top=15mm,bottom=15mm,right=20mm,left=20mm]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[light,sfdefault]{roboto}
+\usepackage{dsfont}
+
+\usepackage{amsmath, mathtools}
+
+\begin{document}
+  \section{Preliminaries} % (fold)
+  \label{sec:preliminaries}
+    \subsection{Metric Spaces} % (fold)
+    \label{sub:metric_spaces}
+      \begin{itemize}
+        \item Definition: Metric and Metric Space
+        \item Definition: Induced Metric
+        \item Examples: $d_1$, $d_\infty$, $d_2$ for $\mathds{R}^n$ and $C(I)$
+        \item Definition: Convergent Sequences and Limits
+        \item Lemma: Limit is Unique
+        \item Definition: Cauchy Sequence
+        \item Proposition: Convergent Sequence is Cauchy Sequence
+        \item Remark: $d_1$ restricted to $\mathds{Q}$ is not dense.
+        \item Definition: Complete Metric Spaces
+        \item Definition: Dense Subsets
+        \item Definition: Continuity of Functions
+        \item Proposition: Characterization of Continuity
+        \item Definition: Isometry and Isometric Metric Spaces
+        \item Theorem: Unique Completion of Isometric Dense Metric Subspaces
+        \item Definition: Open and Closed Ball, Open Sets, Neighborhood and Interior Points
+        \item Definition: Set of Limit Points, Closed Sets and Closures
+        \item Lemma: Characterization of Limit Points and Closed Sets
+        \item Lemma: Closed Subspaces of Complete Spaces are Complete
+        \item Remark: Characterization of Density of Subspace
+        \item Theorem: Rules for Open and Closed Sets
+        \item Theorem: Characterization of Continuous Functions
+        \item Theorem: Product Metric
+      \end{itemize}
+    % subsection metric_spaces (end)
+
+    \subsection{Normed Vector Spaces} % (fold)
+    \label{sub:normed_vector_spaces}
+      \begin{itemize}
+        \item Definition: Linear Operator
+        \item Definition: Norm, Seminorm and Normed Spaces
+        \item Remark: Normed Spaces Induce Metric Spaces
+        \item Example: Minkowski-Norm for $\mathds{R}^n$ and $C(I)$
+        \item Lemma: Young's Inequality
+        \item Theorem: Hölder's Inequalities
+        \item Theorem: Minkowski's Inequalities
+        \item Theorem: Second Version of Triangle Inequality
+        \item Definition: Equivalent Norms
+        \item Remark: Finite Dimensional Norms are Equivalent, Indistinguishability
+        \item Remark: Product Metric
+        \item Proposition: $+$ and $\cdot$ of Normed Spaces are Continuous
+        \item Definition: Bound linear Transformations
+        \item Lemma: Normed Space of Bounded Linear Operators and Norm Characterizations
+        \item Theorem: Characterization of Bounded Linear Operators
+        \item Definition: Banach Space
+        \item Theorem: Completion of Normed Vector Spaces
+        \item Remark: $L^p(I)$ Spaces
+        \item Theorem: BLT-Theorem
+        \item Remark: Lebesgue-Integral as Extension of $C_c(\mathds{R}^n)$
+        \item Theorem: Characterization of Completeness
+      \end{itemize}
+    % subsection normed_vector_spaces (end)
+  % section preliminaries (end)
+
+  \newpage
+
+  \section{Measure Theory} % (fold)
+  \label{sec:measure_and_integration_theory}
+    \subsection{Measure Theory} % (fold)
+    \label{sub:measure_theory}
+      \begin{itemize}
+        \item Measurable Spaces and Measure Spaces
+          \begin{itemize}
+            \item Definition: Algebra, $\sigma$-Algebra, Measurable Space, Measurable Sets
+            \item Example: Trivial $\sigma$-Algebras
+            \item Lemma: Properties of Algebras and $\sigma$-Algebras
+            \item Definition: Generator of $\sigma$-Algebra
+            \item Remark: Existence and Uniqueness of Smallest $\sigma$-Algebra
+            \item Definition: Borel-$\sigma$-Algebra
+            \item Lemma: Monotonicity of Generator
+            \item Example: Generators of Borel-$\sigma$-Algebra
+            \item Example, Proposition, Lemma, Corollary: Generator of Product Borel-$\sigma$-Algebra
+            \item Definition: Product $\sigma$-Algebra
+            \item Proposition, Example: Elementary Family Induces Algebra
+            \item Definition: Measure, Measure Spaces, finite and $\sigma$-finite
+            \item Example: Dirac Point Measure
+            \item Theorem: Monotonicity, Subadditivity, Continuity from Below and Above
+            \item Definition: Null Set, Almost Everywhere Holding Statements
+            \item Definition: Complete Measures
+            \item Theorem, Definition: Completion of Measure Space
+          \end{itemize}
+        \item Lebesgue-Measure
+          \begin{itemize}
+            \item Definition: Lebesgue Outer Measure
+            \item Remark: Lebesgue Outer Measure is well defined
+            \item Theorem: Restriction of Lebesgue Outer Measure to Borel-$\sigma$-Algebra is a Measure
+            \item Definition: Lebesgue Measure and Lebesgue-measurable Sets
+            \item Theorem: Measurable Sets
+            \item Theorem: Characterization Lebesgue-Measurability
+          \end{itemize}
+        \item Construction of Measures from Outer Measures
+          \begin{itemize}
+            \item Definition: Outer Measure
+            \item Lemma: Construction of Outer Measure
+            \item Example: Lebesgue Outer Measure is Outer Measure
+            \item Definition, Remark: Measurable Set with Respect to Outer Measure
+            \item Theorem: Caratheodory, Existence of Measures
+            \item Lemma: Open Intervals are outer-measurable
+            \item Theorem: Characterization of Lebesgue-Measurability
+          \end{itemize}
+        \item Uniqueness of Measures and Monotone Classes
+          \begin{itemize}
+            \item Definition: Monotone Class and Generator
+            \item Theorem: Monotone Class Theorem
+            \item Theorem: Uniqueness of Measures
+          \end{itemize}
+      \end{itemize}
+    % subsection measure_theory (end)
+
+    \subsection{Integration Theory} % (fold)
+    \label{sub:integration_theory}
+      \begin{itemize}
+        \item Integration
+          \begin{itemize}
+            \item Measurable Functions
+            \item Lemma: Characterization, Composition, Continuity
+            \item Proposition: Measurable Functions on Product Spaces
+            \item Corollary: Coordinates, Sum and Product are Measurable
+            \item Theorem: sup, inf, limsup, liminf, lim are Measurable
+            \item Definition: Simple Functions
+            \item Lemma: Simple Function Formulation with Linear Combination, Characterization Measurability
+            \item Theorem: Monotone Convergence of Simple Functions to Measurable Functions
+            \item Definition: Integral of Simple Functions
+            \item Proposition: Measure, Linearity and Monotonicity of Positive Simple Function Integrals
+            \item Definition: Lebesgue Integral for Non-negative Functions
+            \item Remark: Properties of Lebesgue Integral
+            \item Theorem: Monotone Convergence Theorem by Lebesgue
+            \item Corollary: Linearity, Interchange of Sum and Integral
+            \item Theorem: Lemma by Fatou
+            \item Definition: Lebesgue Integral
+            \item Proposition, Definition: $L^1$ Space
+            \item Theorem: Dominated Convergence
+            \item Theorem: Parameter dependent Integrals
+          \end{itemize}
+        \item Product Measures
+          \begin{itemize}
+            \item Proposition: Section Property
+            \item Theorem: Product Measure
+            \item Theorem: Fubini-Tonelli
+          \end{itemize}
+        \item $L^p$ Spaces
+          \begin{itemize}
+            \item Definition: $L^p$ Spaces
+            \item Lemma: $L^p$ is a Vector Space
+            \item Theorem: Hölder's Inequality
+            \item Theorem: Minkowski's Inequality
+            \item Theorem: $L^p$-Norm Implies almost everywhere Pointwise Convergence of Subsequence
+            \item Corollary: Cauchy Sequence
+            \item Theorem: Set of Simple Functions is Dense in $L^p$
+            \item Corollary: $L^p$ has countable dense subset, $C_c(\mathds{R}^n)$ is Dense in $L^p(\mathds{R}^n)$
+            \item Definition: Essential Supremum and $L^\infty$
+            \item Theorem: Properties of $L^\infty$
+          \end{itemize}
+      \end{itemize}
+    % subsection integration_theory (end)
+  % section measure_and_integration_theory (end)
+\end{document}
