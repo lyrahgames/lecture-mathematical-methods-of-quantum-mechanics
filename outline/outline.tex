@@ -9,6 +9,7 @@
 \usepackage{dsfont}
 
 \usepackage{amsmath, mathtools}
+\usepackage[mathscr]{euscript}
 
 \begin{document}
   \section{Preliminaries} % (fold)
@@ -68,8 +69,6 @@
       \end{itemize}
     % subsection normed_vector_spaces (end)
   % section preliminaries (end)
-
-  \newpage
 
   \section{Measure Theory} % (fold)
   \label{sec:measure_and_integration_theory}
@@ -171,4 +170,315 @@
       \end{itemize}
     % subsection integration_theory (end)
   % section measure_and_integration_theory (end)
+
+  \section{Hilbert Spaces} % (fold)
+  \label{sec:hilbert_spaces}
+    \subsection{Sesquilinearforms} % (fold)
+    \label{sub:sesquilinearforms}
+      \begin{itemize}
+        \item Definition: Sesquilinearform, Symmetry, Non-negativity, Positive Definite, Bilinear Form
+        \item Lemma: $s(0,x) = s(x,0) = 0$
+        \item Proposition: Parallelogram Identity
+        \item Proposition: Polarization
+        \item Corollary: Positive Sesquilinearforms are symmetric
+      \end{itemize}
+    % subsection sesquilinearforms (end)
+
+    \subsection{Vector Spaces with Semi-Inner Products} % (fold)
+    \label{sub:vector_spaces_with_semi_inner_products}
+      \begin{itemize}
+        \item Definition: Semi-Inner Product and Inner Product
+        \item Lemma: Antilinearity in First Argument
+        \item Remark: Characterization Semi-Inner Product and Inner Product
+        \item Examples
+        \item Proposition: Cauchy-Schwarz-Bunyakowski
+        \item Definition: Semi-Norm
+        \item Lemma: Semi-Norm Properties
+        \item Proposition: Induced Semi-Norm and Norm
+        \item Definition: Orthogonal and Orthogonal Complement
+        \item Definition: Linear Span
+        \item Lemma: Algebraic Properties of Orthogonal Complement
+        \item Definition: Orthonormal System
+        \item Proposition: Pythagoras
+        \item Definition: General Sum
+        \item Lemma: Sum over uncountable elements
+        \item Theorem: Bessel
+        \item Proposition: Gram-Schmidt Algorithm
+      \end{itemize}
+    % subsection vector_spaces_with_semi_inner_products (end)
+
+    \subsection{Hilbert Spaces} % (fold)
+    \label{sub:hilbert_spaces}
+      \begin{itemize}
+        \item Lemma: Induced Metric
+        \item Proposition: Norm and Inner Product are Continuous
+        \item Definition: Hilbert Space
+        \item Lemma: Continuity Properties
+        \item Lemma: Characterization of Norm and Operator Norm through Inner Product
+        \item Proposition: $l^2(\mathds{N})$
+        \item Theorem: Approximation Theorem
+        \item Theorem: Projection Theorem
+        \item Remark: Direct Sum
+        \item Lemma: Completeness Properties
+        \item Definition: Projection
+        \item Lemma: Projection Properties
+        \item Definition: Orthogonal Projection
+        \item Lemma: Orthogonal Projections are Bounded
+        \item Proposition: Orthogonal Projection for Closed Subspace
+        \item Definition: Orthonormal Basis
+        \item Proposition: Orthonormal Basis in $l^2(\mathds{N})$
+        \item Definition: General Sum Convergence in Normed Space
+        \item Theorem: Coefficient Representation
+        \item Lemma: Characterization Orthonormal Basis
+        \item Corollary: Physics Identity
+        \item Theorem: Every Hilbert Space has an Orthonormal Basis
+        \item Proposition: Orthogonal Projection Coefficients for Closed Subspace
+      \end{itemize}
+    % subsection hilbert_spaces (end)
+
+    \subsection{Separable Hilber Spaces} % (fold)
+    \label{sub:separable_hilber_spaces}
+      \begin{itemize}
+        \item Definition: Dense, Separable
+        \item Definition: Unitary Mapping, Unitarily Equivalence
+        \item Lemma: Characterization Unitarity
+        \item Proposition: Characterization Separability
+        \item Definition: Completion
+        \item Theorem: Existence and Uniqueness of Completion
+      \end{itemize}
+    % subsection separable_hilber_spaces (end)
+
+    \subsection{Riesz's Theorem} % (fold)
+    \label{sub:riesz_s_theorem}
+      \begin{itemize}
+        \item Lemma: Continuous Linear Mappings $l_v$
+        \item Theorem: Riesz's Theorem
+        \item Corollary: Unique Bounded Linear Transformation for Sesquilinearforms
+      \end{itemize}
+    % subsection riesz_s_theorem (end)
+
+    \subsection{Hilbert Adjoint for Bounded Operators} % (fold)
+    \label{sub:hilbert_adjoint_for_bounded_operators}
+      \begin{itemize}
+        \item Lemma: Inner Product Identity
+        \item Lemma: Existence of unique Hilbert Adjoint
+        \item Lemma: Properties of Adjoint
+        \item Definition: Selfadjointness and Normality
+        \item Lemma: Selfadjoint Operators are normal
+        \item Lemma: Characterization of Normal Operators
+        \item Lemma: Characterization of Selfadjointness
+        \item Corollary: Zero Identity for Selfadjoint Operators
+        \item Definition: Unitary Operator
+        \item Lemma: Characterization Unitary Operator
+        \item Lemma: Characterization Orthogonal Projection
+      \end{itemize}
+    % subsection hilbert_adjoint_for_bounded_operators (end)
+
+    \subsection{Construction of Hilbert Spaces} % (fold)
+    \label{sub:construction_of_hilbert_spaces}
+      \begin{itemize}
+        \item Proposition: Direct Sums of Hilbert Spaces
+        \item Proposition: Hilbert Space of Vector Valued Functions
+        \item Definition, Lemma: Tensor Product of Hilbert Spaces
+        \item Proposition: Orthonormal Basis of Tensor Product
+        \item Example: General Fock Space, Symmetric Fock Space, Antisymmetric Fock Space
+        \item Theorem: Tensor Product of $L^2$ Spaces
+        \item Examples
+      \end{itemize}
+    % subsection construction_of_hilbert_spaces (end)
+  % section hilbert_spaces (end)
+
+  \section{Fourier Analysis} % (fold)
+  \label{sec:fourier_analysis}
+    \subsection{Existence of Test Functions} % (fold)
+    \label{sub:existence_of_test_functions}
+      \begin{itemize}
+        \item Definition: Support
+        \item Lemma: Existence of $C_C^\infty(\mathds{R}^n)$ Function
+      \end{itemize}
+    % subsection existence_of_test_functions (end)
+
+    \subsection{$L^p$ Spaces in $\mathds{R}^n$} % (fold)
+      \begin{itemize}
+        \item Definition: Convolution
+        \item Definition: $L_\mathrm{loc}^p(U)$
+        \item Lemma: Convolution is continuous for $C_c$ and $L_\mathrm{loc}$
+        \item Theorem: Young Inequality
+        \item Proposition: Convolution Properties
+        \item Proposition: Convolution Preserves Differentiability
+        \item Theorem: $\phi_t$ Test Functions
+        \item Corollary: $C^\infty_c$ is dense in $L^p$ and $C_0$
+        \item Theorem: Zero Identity for $C^\infty_c$ Test Functions
+      \end{itemize}
+    % subsection subsection_name (end)
+
+    \subsection{The Fourier Transform} % (fold)
+    \label{sub:the_fourier_transform}
+      \begin{itemize}
+        \item Definition: Fourier Transformation and Inverse
+        \item Lemma: Fourier Transform Properties
+        \item Lemma: Parseval (Interchange of Convolution)
+        \item Theorem: Convolution and Fourier Transform
+        \item Lemma: Fourier Transform of Gaussians
+      \end{itemize}
+    % subsection the_fourier_transform (end)
+
+    \subsection{Schwartz Space} % (fold)
+    \label{sub:schwartz_space}
+      \begin{itemize}
+        \item Definition: Schwartz Space $\mathscr{S}$
+        \item Lemma: $C_c^\infty$ is Dense in $\mathscr{S}$
+        \item Lemma: Fourier Transform and Inverse are Linear and Interchange Multiplication with Differentiation
+        \item Theorem: Fourier Transform is Bijection on $\mathscr{S}$
+        \item Definition: Fourier Transform on $L^2$
+        \item Theorem: Definitions of Fourier Transform agree on $L^1$ and $L^2$
+        \item Theorem: Fourier Transform is Bijection on $L^2$
+      \end{itemize}
+    % subsection schwartz_space (end)
+
+    \subsection{Dynamics of Free Schrödinger Equation} % (fold)
+      \begin{itemize}
+        \item Theorem: Solutions $\psi_t$ of Schrödinger Equation
+        \item Lemma: Reformulation of Solution
+        \item Corollary: Decay of Wave Packet
+        \item Corollary: Solution can be Splitted into Sum
+        \item Theorem: Norm Equality
+      \end{itemize}
+    % subsection dynamics_of_free_schrödinger_equation (end)
+
+    \subsection{Weak Derivatives} % (fold)
+    \label{sub:weak_derivatives}
+      \begin{itemize}
+        \item Remark: Motivation
+        \item Definition: Weak Partial Derivative
+        \item Remark: $L^p_\mathrm{loc}(U)\subset L^1_\mathrm{loc}(U)$
+        \item Lemma: Uniqueness of Weak Derivatives
+      \end{itemize}
+    % subsection weak_derivatives (end)
+
+    \subsection{Sobolev Spaces} % (fold)
+    \label{sub:sobolev_spaces}
+      \begin{itemize}
+        \item Definition: Sobolev Space and Sobolev Norm
+        \item Theorem: Sobolev Spaces are Banach Spaces
+        \item Lemma: Characterization $H^n$ and Application of Fourier Transform
+      \end{itemize}
+    % subsection sobolev_spaces (end)
+  % section fourier_analysis (end)
+
+  \section{Unbounded Operators} % (fold)
+  \label{sec:unbounded_operators}
+    \begin{itemize}
+      \item Theorem: Closed Graph Theorem
+    \end{itemize}
+
+    \subsection{Definitions and Basic Properties} % (fold)
+    \label{sub:definitions_and_basic_properties}
+      \begin{itemize}
+        \item Definition: General Linear Operator
+        \item Definition: Graph of Linear Operator
+        \item Lemma: Equivalences for Graph
+        \item Definition: Extension of a Linear Operator
+        \item Theorem: Characterization of Extension
+        \item Definition: Addition and Composition
+      \end{itemize}
+    % subsection definitions_and_basic_properties (end)
+
+    \subsection{Closed Operators} % (fold)
+    \label{sub:closed_operators}
+      \begin{itemize}
+        \item Definition: Closed Linear Operator
+        \item Theorem: Characterization of Closed Operator
+        \item Corollary: Bounded Operators are Closed Operators
+        \item Definition: Closable Operators
+        \item Theorem: Existence of Unique Smallest Closed Extension
+        \item Theorem: $\overline{\Gamma(T)} = \Gamma(\overline{T})$
+        \item Theorem: Sequence Criterion
+        \item Theorem: BLT Theorem
+        \item Lemma: Inverse is closed iff Operator is closed
+        \item Lemma: Addition and Right Composition Preserve Closedness
+        \item Definition: Graph Norm
+        \item Theorem: Characterization Closedness by Completeness
+      \end{itemize}
+    % subsection closed_operators (end)
+
+    \subsection{Spectral Theory} % (fold)
+    \label{sub:spectral_theory}
+      \begin{itemize}
+        \item Definition: Resolvent Set, Resolvent and Spectrum
+        \item Definition: Eigenvalue, Eigenvector and Point Spectrum
+        \item Lemma: Point Spectrum is Subset of Spectrum
+        \item Lemma: Properties of Resolvent
+        \item Remark: Closedness implies Boundness of Inverse
+        \item Remark: Operator with Nonempty Spectrum must be Closed
+        \item Lemma: Resolvent Identities
+        \item Theorem: Neumann Series
+        \item Lemma: Disk Contained in Resolvent
+        \item Theorem: Resolvent Set is Open and Spectrum is Closed, Resolvent-valued function is Analytic
+        \item Theorem: Spectrum for Closed Linear Operators
+      \end{itemize}
+    % subsection spectral_theory (end)
+
+    \subsection{Operators in Hilbert Spaces} % (fold)
+    \label{sub:operators_in_hilbert_spaces}
+      \begin{itemize}
+        \item Definition: Multiplication Operator
+        \item Lemma: $M_fM_g \subset M_{fg}$
+        \item Definition: Measure Support and Essential Supremum
+        \item Proposition: Properties of Multiplication Operator
+        \item Example: Laplacian
+      \end{itemize}
+    % subsection operators_in_hilbert_spaces (end)
+
+    \subsection{Adjoint Operators} % (fold)
+    \label{sub:selfadjoint_operators}
+      \begin{itemize}
+        \item Definition: Adjoint Operator
+        \item Remark: Characterizations for Domain of Definition
+        \item Remark: Inner Product Identity and $V$ function
+        \item Lemma: Graph of Dense Operator
+        \item Lemma: Closability Properties of Dense Operator
+        \item Proposition: Kernel of Adjoint is equal to Orthogonal Complement of Image of Dense Operator
+        \item Lemma: Adjoint of Inverse of Resolvent
+        \item Lemma: Addition and Composition Properties
+        \item Lemma: Adjoint of Multiplication Operator
+      \end{itemize}
+    % subsection selfadjoint_operators (end)
+
+    \subsection{Selfadjoint and Symmetric Operators} % (fold)
+    \label{sub:selfadjoint_and_symmetric_operators}
+      \begin{itemize}
+        \item Definition: Selfadjoint Operator
+        \item Remark: Selfadjointness implies Closedness
+        \item Example: Laplacian on $H^2$ is selfadjoint
+        \item Theorem: Properties of Selfadjoint Operators
+        \item Definition: Symmetric Operator
+        \item Remark: Selfadjoint Operators are Symmetric
+        \item Lemma: Properties of Symmetric Operators
+        \item Theorem: Basic Criterion for Selfadjointness
+        \item Definition: Essentially Selfadjoint Operators
+        \item Example: Laplacian restricted to Schwartz Space is essentially selfadjoint
+      \end{itemize}
+    % subsection selfadjoint_and_symmetric_operators (end)
+
+    \subsection{Kato Rellich Theorem} % (fold)
+    \label{sub:kato_rellich_theorem}
+      \begin{itemize}
+        \item Definition: $T$-Boundness and Relative Bound
+        \item Theorem: Kato-Rellich
+        \item Lemma: Boundness by Laplacian
+        \item Corollary: Laplacian summed with sum over Functions is selfadjoint
+        \item Example
+      \end{itemize}
+    % subsection kato_rellich_theorem (end)
+  % section unbounded_operators (end)
+
+  \section{Spectral Theorem} % (fold)
+  \label{sec:spectral_theorem}
+    \begin{itemize}
+      \item Theorem: Spectral Theorem - Multiplication Operator Form
+      \item Theorem: Spectral Theorem - Multiplication Operator Form - Separable Case
+      \item Remark: Physics Notation
+    \end{itemize}
+  % section spectral_theorem (end)
 \end{document}
